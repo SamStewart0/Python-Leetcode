@@ -6,7 +6,6 @@ class Solution(object):
         seen = {}
 
         #enumerate through nums
-
         for i,num in enumerate(nums):
 
             #calculate the target     
@@ -16,8 +15,7 @@ class Solution(object):
             if needed in seen:
 
                 #return the index from seen and i
-                
                 return[seen[needed], i]
            
-            #otherwise add the value to seen at index of the i and loop
+            #otherwise add the value to seen at index i 
             seen[num] = i
