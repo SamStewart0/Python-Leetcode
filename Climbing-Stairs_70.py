@@ -16,3 +16,5 @@ class Solution(object):
             #slide variables
             step1 = step2
             step2 = current 
+        
+        return step2
