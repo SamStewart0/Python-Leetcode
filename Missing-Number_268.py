@@ -5,10 +5,10 @@ class Solution(object):
 
         for i in range (len(nums)+1):
 
-            total = total + i 
+            total += i 
 
         for num in nums:
 
-            total = total - num
+            total -= num
 
         return total
