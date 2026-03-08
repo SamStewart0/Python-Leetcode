@@ -25,7 +25,7 @@ class Solution(object):
 
             p -= 1
 
-        #if nums1 runs out of values, fill nums1 with the remaining value in nums 2  
+        #if nums1 runs out of values, fill nums1 with the remaining values in nums 2  
         while p2 >= 0:
 
             nums1[p] = nums2[p2]
