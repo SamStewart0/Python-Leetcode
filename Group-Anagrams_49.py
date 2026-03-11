@@ -7,7 +7,7 @@ class Solution:
 
         for word in strs:
 
-            #sorted returns a list so use .join to return a string as list cannot be used as a key for dict
+            #sorted returns a list so use .join to return a string as list cannot be used as key for dict as they are mutable
 
             sorted_word = "".join(sorted(word))
 
@@ -17,6 +17,6 @@ class Solution:
 
             sorted_words.setdefault(sorted_word, []).append(word)
 
-            #create new list of lists using the dictionary values pairs
+            #create new list of lists using the dictionary values 
 
         return(list(sorted_words.values()))
