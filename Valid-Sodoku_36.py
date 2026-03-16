@@ -23,7 +23,7 @@ class Solution:
 
                     row_id = f"{value} in row {row}"
                     column_id = f"{value} in column {column}"
-                    #row/column mod 3 gives us a grid coord - first grid = 0,0
+                    #row/column mod 3 gives us a 3x3 grid coord - first grid = 0,0
                     grid_id = f"{value} in grid {row//3}-{column//3}"
 
                     if row_id in seen or column_id in seen or grid_id in seen:
