@@ -19,6 +19,8 @@
 
             for pile in piles:
 
+                    #this lines forces python to round up the floor division instead of down, aligning with constraint if pile[i] < k he finishes the pile and no more 
+
                 current_hours += -(-pile // mid_k)
 
             #if current_hours is less than or equal to H this is a new min
