@@ -22,6 +22,7 @@ class Solution:
             #traverse leftmost side until we hit None
 
             left_h = get_height(node.left)
+            
             #traverse rightmost side until we hit None
 
             right_h = get_height(node.right)
